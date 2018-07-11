@@ -1,5 +1,6 @@
 #include<cstdio>
 #include<cstring>
+#include<iostream>
 using namespace std;
 const int maxn=100000+10;
 int d[maxn];
@@ -36,6 +37,7 @@ int main(){
 			num[i]=j;
 		}
 	}
+	//for(int i=1;i<=n;++i) cout<<i<<" "<<B[i]<<" "<<num[i]<<endl;
 	int last=maxn,l1=len;
 	for(int i=n;i>=1;i--){
 		if(!l1)break;
